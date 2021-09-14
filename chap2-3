@@ -1,0 +1,16 @@
+#include <iostream>	//<iostream>�� ��°�� std�� �̸� ���� ���� ����
+using namespace std;
+
+int main() {
+	cout << "�ʺ�� ���̸� �Է��ϼ���>>";
+	//int width;;
+
+	//cin >> width;	//Ű����κ��� �ʺ� �о� width ������ ����
+	//cout << "���̸� �Է��ϼ���>>";
+	
+	int width, height;
+	cin >> width >> height;	//Ű����κ��� ���̸� �о� height ������ ����
+
+	int area = width * height;	//�簢���� ���� ���
+	cout << "������ " << area << "\n";	//������ ����ϰ� ���� �ٷ� �Ѿ
+}
